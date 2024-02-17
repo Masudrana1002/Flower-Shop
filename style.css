@@ -140,7 +140,7 @@ h1 {
 }
 
 /* delivery-Support-section style end */
-/* hot-deal start */
+/* hot-deal style start */
 .hot-deal {
     max-width: 1922px;
     width: 100%;
@@ -149,7 +149,7 @@ h1 {
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: center;
 }
 .hot-deal h3{
@@ -161,4 +161,6 @@ h1 {
     margin: 5px auto;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+    padding: 4%;
 }
+/* hot-deal style end */
