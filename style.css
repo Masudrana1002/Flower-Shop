@@ -53,6 +53,11 @@ h1 {
 
 /* banner section style End  */
 /* Our Featured Flowers style start */
+.our-featured{
+   max-width: 1920px;
+   height: 100vh;
+
+}
 .featured-content {
     text-align: center;
     width: 594px;
@@ -69,23 +74,45 @@ h1 {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 }
+.flower-tre-section{
+    display: flex;
+    gap: 24px;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .flower-tree {
-    width: 464px;
-    height: 538px;
+
     border-radius: 300px 300px 0px 0px;
+    height: 450px;
+    width: 380px;
+    padding: 40px 20px 0;
+}
+.flower-tree-1{
     background: rgba(167, 33, 98, 0.15);
 }
-.flower-tree{
-    display: flex;
-    
+.flower-tree-2{
+    background: rgba(5, 151, 160, 0.15);
 }
-.flower-tree-conteiner{
-    padding: ;
+.flower-tree-3{
+    background: rgba(71, 125, 17, 0.15);
 }
-.flower-tree img{
-width: 100%;
-height: 100%;
+
+.tree-title {
+    text-align: center;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 30px;
+}
 
 
+
+
+.flower-tree img {
+    width: 100%;
+    height: 100%;
 }
+/* Our Featured Flowers style end */
