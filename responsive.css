@@ -48,6 +48,7 @@ h1 {
 .banner-img img {
     width: 100%;    
 }
+
 }
   /* banner section style End  */
 /* Phone max 767px */
@@ -55,7 +56,14 @@ h1 {
 @media (max-width: 767px) {
     /* primary Button */
 .primary-btn {
+    display: block;
     padding: 12px 30px;
+   
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* banner section style start  */
@@ -84,5 +92,31 @@ h1 {
 .banner-img img {
     width: 100%;    
 }
+ /* banner section style End  */
+/* Our Featured Flowers style start */
+ .featured-content {
+     width: 80%;
+     padding: 15px;
+ }
+ .featured-content{
+   margin: 50px auto 20px;
+ }
+ .flower-tree{
+    width: 300px;
+    height: 400px;
+ }
+ .featured-title {
+     font-size: 30px;
+ }
+ 
+ /* Our Featured Flowers style end */
+ .delivery-Support-section{
+    flex-direction:column;
+    margin: 50px auto;
+    font-size: 16px;
+    padding: 8px;
+    gap: 10px;
+    height: 60%;
 }
-  /* banner section style End  */
+}
+ 
