@@ -1,0 +1,88 @@
+@media (min-width: 1024px) and (max-width: 1392px) {
+    .banner-conteiner {
+      padding: 20px;
+    }
+    .banner-content {
+        max-width: 508px;
+    
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .primary-btn {
+        padding: 12px 30px;
+    }
+}
+/* teb 768px to 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* primary Button */
+.primary-btn {
+    padding: 12px 30px;
+}
+
+/* banner section style start  */
+.banner-conteiner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.banner-content {
+    max-width: 708px;
+
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.banner-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.banner-img {
+    max-width: 500px;  
+  
+}
+
+.banner-img img {
+    width: 100%;    
+}
+}
+  /* banner section style End  */
+/* Phone max 767px */
+
+@media (max-width: 767px) {
+    /* primary Button */
+.primary-btn {
+    padding: 12px 30px;
+}
+
+/* banner section style start  */
+.banner-conteiner {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 14px;
+}
+.banner-content {
+    max-width: 708px;
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.banner-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.banner-img {
+    max-width: 400px;  
+}
+
+.banner-img img {
+    width: 100%;    
+}
+}
+  /* banner section style End  */
