@@ -49,7 +49,9 @@ h1 {
     width: 100%;    
 }
 
+
 }
+
   /* banner section style End  */
 /* Phone max 767px */
 
@@ -117,6 +119,17 @@ h1 {
     padding: 8px;
     gap: 10px;
     height: 60%;
+}
+.hot-deal{
+    flex-direction: column;
+    height: 80%;
+}
+.hot-deal-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
 }
 }
  
